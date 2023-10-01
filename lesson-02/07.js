@@ -7,8 +7,7 @@ function Married() {
       city: "Bobryisk",
     },
   };
-  let passportMarried2 = { ...passportMarried };
-  passportMarried2.married = "true";
+  let passportMarried2 = { ...passportMarried, married: true };
   console.log(passportMarried);
   console.log(passportMarried2);
 }
