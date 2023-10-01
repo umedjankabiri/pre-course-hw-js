@@ -7,12 +7,9 @@ function objectCopy() {
       city: "LA",
     },
   };
-  let clone = {};
-  for (let i in passportWithAddress) {
-    clone[i] = passportWithAddress[i];
-  }
-  clone.address.city = "Bobryisk";
+  let copyPassportWithAddress = Object.assign({}, passportWithAddress);
   console.log(passportWithAddress.address.city);
-  console.log(clone.address.city);
+  copyPassportWithAddress.address.city = "Bobryisk";
+  console.log(copyPassportWithAddress.address.city);
 }
 objectCopy();
