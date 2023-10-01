@@ -8,3 +8,4 @@ function objectCopy() {
   console.log(passport);
   console.log(copyPassport);
 }
+objectCopy();
