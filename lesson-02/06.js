@@ -12,7 +12,7 @@ function objectCopy() {
     clone[i] = passportWithAddress[i];
   }
   clone.address.city = "Bobryisk";
-  console.log(passportWithAddress);
-  console.log(clone);
+  console.log(passportWithAddress.address.city);
+  console.log(clone.address.city);
 }
 objectCopy();
