@@ -8,7 +8,7 @@ function Married() {
     },
   };
   let passportMarried2 = { married: true, ...passportMarried };
-  passportMarried2.married = "true";
+  passportMarried2.married = true;
   console.log(passportMarried);
   console.log(passportMarried2);
 }
