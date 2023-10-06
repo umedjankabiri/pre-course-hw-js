@@ -1,7 +1,8 @@
 function emulationIndexOf() {
   const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
-  words.indexOf("апельсин")
-    ? console.log("Ура! нашел")
-    : console.log("Придется поискать в другом магазине...");
+  const elemIndex = words.indexOf("апельсин");
+  elemIndex == "апельсин"
+    ? console.log("Придется поискать в другом магазине...")
+    : console.log("Ура! нашел");
 }
 emulationIndexOf();
