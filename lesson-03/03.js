@@ -11,7 +11,6 @@ function sliceMethod() {
     "слива",
     "персик",
   ];
-  console.log(fruits);
-  console.log(fruits.slice(1, 7));
+  console.log(fruits.slice(1, 8));
 }
 sliceMethod();
